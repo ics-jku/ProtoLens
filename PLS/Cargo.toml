@@ -1,0 +1,13 @@
+[package]
+name = "PLS"
+version = "0.1.0"
+authors = ["jonas.reichhardt <reichhardt.jonas@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-stream = { version = "0.1.15" }
+warp = { version = "0.3.7" }
+futures = { version = "0.3.30" }
+serde = {version = "1.0.209", features = ["derive"] }
+serde_json = {version = "1.0.127" }
